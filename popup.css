@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper{
+    width: 300px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.changeColorBtn{
+    width: 100%;
+    padding: 10px 0;
+    background-color: rgb(93, 153, 207);
+    font-size: 14px;
+    color: white;
+    letter-spacing: 1.1px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.changeColorBtn:hover{
+    background-color: rgb(69, 122, 169);
+}
+
+#selectedColorBox{
+    display: none;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#selectedColorGrid{
+    width: 60px;
+    height: 25px;
+    background-color: red;
+    border-radius: 5px;
+}
+
+#selectedColorValue{
+    color: black;
+    letter-spacing: 1.2px;
+    font-size: 12px;
+    font-weight: 500;
+}
