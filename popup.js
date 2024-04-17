@@ -18,7 +18,4 @@ btn.addEventListener("click",()=>{
             console.error(error);
         }
       })
-      .error((e) => {
-        console.error(e);
-      })
 })
